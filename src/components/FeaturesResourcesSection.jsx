@@ -50,7 +50,7 @@ export default function FeaturesResourcesSection() {
               {
                 title: "Why Small Towns Need Digital Systems",
                 desc: "More than metro cities need smart management.",
-                img: "https://images.unsplash.com/photo-1581091870627-3b9b9f0e2c6d",
+                img: "https://egov.eletsonline.com/wp-content/uploads/2022/06/Digital-Cities.jpg",
               },
               {
                 title: "Role of Sanitation Services",
