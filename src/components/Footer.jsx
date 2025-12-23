@@ -20,7 +20,7 @@ const Footer = () => {
             <p className="font-semibold mb-6">(Clean-Buddy)</p>
 
             <img
-              src="https://static.wixstatic.com/media/509081_4ce6f687794a4eac8d05de7c13ecfdfa~mv2.png/v1/fill/w_163,h_163,al_c,lg_1,q_85,enc_avif,quality_auto/_edited_edited.png"
+              src="https://briskodetechnology.com/images/Briskode/logo.png"
               alt="SafaiMitra"
               className="h-20"
             />

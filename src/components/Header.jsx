@@ -9,7 +9,7 @@ const Header = () => {
       {/* LEFT LOGO */}
       <div className="flex items-center">
         <img
-          src="https://static.wixstatic.com/media/509081_4ce6f687794a4eac8d05de7c13ecfdfa~mv2.png/v1/fill/w_78,h_78,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/_edited_edited.png"
+          src="https://briskodetechnology.com/images/Briskode/logo.png"
           alt="SafaiMitra"
           className="h-11"
         />
@@ -17,11 +17,7 @@ const Header = () => {
 
       {/* CENTER */}
       <div className="flex items-center gap-8 mx-auto">
-        <img
-          src="https://static.wixstatic.com/media/509081_c07ec5a01d1d4564be0d6ca9ffb0d499~mv2.png/v1/fill/w_72,h_72,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/gem-logo.png"
-          alt="GeM"
-          className="h-9"
-        />
+        
 
         <ul className="flex gap-6 text-[15px] text-gray-800">
           <li className="text-blue-600 font-semibold cursor-pointer">
