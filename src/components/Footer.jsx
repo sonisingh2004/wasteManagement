@@ -1,7 +1,11 @@
-import React from "react";
+import { useState } from "react";
+import DemoModal from "./DemoModal";
 
 const Footer = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
+    <>
     <footer className="relative w-full bg-[#fffdf8] overflow-hidden">
       
       {/* Background Glow */}
@@ -45,8 +49,11 @@ const Footer = () => {
             <p>Email :- briskodetechnology@gmail.com</p>
             <p>Mobile:- +91 9348354248 </p>
             <p>Phone:- +91 8117856483</p>
-
-            <button className="mt-4 px-6 py-2 bg-black text-white rounded-lg">
+            
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="mt-4 px-6 py-2 bg-black text-white rounded-lg hover:bg-gray-800 transition"
+            >
               Book a Demo
             </button>
 
@@ -83,6 +90,9 @@ const Footer = () => {
 
       </div>
     </footer>
+
+    <DemoModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+    </>
   );
 };
 

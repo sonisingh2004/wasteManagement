@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function FeaturesResourcesSection() {
   return (
     <>
@@ -19,10 +21,12 @@ export default function FeaturesResourcesSection() {
             all IoT devices like GPS, Mobile, CCTV, Sensors, RFID, Biometric
             machines and more.
           </p>
-
-          <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition">
+        <Link to='/feature'>
+        <button className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition">
             Discover more features
           </button>
+        </Link>
+          
         </div>
       </section>
 
