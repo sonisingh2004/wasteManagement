@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="hero-gradient text-white">
+    <section className="hero-gradient text-white h-screen flex pt-20">
       <div className="max-w-7xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-center justify-between">
 
         {/* Left Content */}
@@ -31,9 +31,9 @@ export default function Hero() {
         {/* Right Image */}
         <div className="lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
           <img
-            src="/hero-waste-management.png"
+            src="https://swachhindia.ndtv.com/wp-content/uploads/sites/3/2016/08/660_3.jpg"
             alt="Waste management dashboard"
-            className="max-w-md w-full drop-shadow-2xl"
+            className="max-w-md w-full drop-shadow-2xl rounded-2xl"
           />
         </div>
 

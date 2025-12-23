@@ -10,6 +10,7 @@
   animation: gradientMove 12s ease infinite;
 }
 
+
 @keyframes gradientMove {
   0% {
     background-position: 0% 50%;
@@ -34,7 +35,7 @@
       /* muted sky blue */
       #f2cfe3);
   background-size: 300% 300%;
-  animation: kpiGradientMove 18s linear infinite;
+  animation: kpiGradientMove 4s linear infinite;
 }
 
 @keyframes kpiGradientMove {
@@ -49,4 +50,31 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.smart-waste-gradient {
+  background: linear-gradient(90deg,
+      #062a4d 0%,
+      #1f5f9e 25%,
+      #b7d6f6 50%,
+      #1f5f9e 75%,
+      #062a4d 100%);
+}
+
+/* allinone */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+  opacity: 0;
 }
