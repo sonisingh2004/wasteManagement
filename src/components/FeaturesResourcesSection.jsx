@@ -11,7 +11,7 @@ export default function FeaturesResourcesSection() {
 
           <h2 className="text-3xl md:text-4xl font-semibold mb-6">
             From API integrations to powerful <br />
-            analytics – SafaiMitra has it all.
+            analytics 
           </h2>
 
           <p className="text-gray-600 text-sm max-w-2xl mx-auto mb-8">
@@ -32,7 +32,7 @@ export default function FeaturesResourcesSection() {
 
           <p className="text-4xl text-gray-500 mb-3">Resources</p>
           <h3 className="text-3xl font-semibold mb-14">
-            The latest from SafaiMitra
+            The latest from Briskode
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -90,7 +90,7 @@ export default function FeaturesResourcesSection() {
           <div className="text-white">
             <p className="text-5xl font-bold mb-2">Our Clients</p>
             <h3 className="text-3xl font-semibold leading-snug">
-              Why companies <br /> like SafaiMitra?
+              Why our companies <br /> like ?
             </h3>
           </div>
 
@@ -101,7 +101,7 @@ export default function FeaturesResourcesSection() {
             </p>
 
             <p className="text-xs text-gray-600 mb-6">
-              By SafaiMitra User Charges System our monthly cash collection
+              User Charges System our monthly cash collection
               increased by 40%. It’s online software performance is really good.
             </p>
 

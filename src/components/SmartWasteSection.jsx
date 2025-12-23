@@ -19,10 +19,10 @@ export default function SmartWasteSection() {
           </h2>
 
           <p className="text-base leading-relaxed text-white/90">
-            SafaiMitra provides smart waste management software solutions that
+            It provides smart waste management software solutions that
             support the green transformation of waste management. Achieve
             efficiency, reduce costs, ensure 100% transparency, and promote
-            re-sustainability. SafaiMitra&apos;s tools are designed to enhance
+            re-sustainability. It tools are designed to enhance
             waste management processes effectively in the United States and
             beyond.
           </p>
