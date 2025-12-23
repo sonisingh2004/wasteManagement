@@ -1,1 +1,52 @@
 @import "tailwindcss";
+
+.hero-gradient {
+  background: linear-gradient(-45deg,
+      #16a34a,
+      #0ea5e9,
+      #22c55e,
+      #2563eb);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.kpi-animated-gradient {
+  background: linear-gradient(120deg,
+      #f3cce6,
+      /* deeper pink */
+      #cfe6fb,
+      /* soft blue */
+      #c3ddf8,
+      /* muted sky blue */
+      #f2cfe3);
+  background-size: 300% 300%;
+  animation: kpiGradientMove 18s linear infinite;
+}
+
+@keyframes kpiGradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

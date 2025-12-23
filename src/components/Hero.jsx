@@ -1,42 +1,39 @@
-
 export default function Hero() {
   return (
-    <section className="bg-gradient-to-r from-green-600 to-blue-600 text-white">
-      <div className="container mx-auto px-6 py-20 flex flex-col lg:flex-row items-center justify-between">
-        
-        {/* Left Hero Content */}
-        <div className="text-center lg:text-left lg:w-1/2 space-y-6">
-          <h1 className="text-4xl lg:text-5xl font-extrabold">
-            India’s No.1 Waste Collection  
-            <span className="block text-yellow-300">Management Software</span>
+    <section className="hero-gradient text-white">
+      <div className="max-w-7xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-center justify-between">
+
+        {/* Left Content */}
+        <div className="lg:w-1/2 space-y-6 text-center lg:text-left">
+          <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight">
+            India’s No.1 Waste Collection
+            <span className="block text-yellow-300">
+              Management Software
+            </span>
           </h1>
 
-          <p className="text-lg lg:text-xl">
-            Door-to-Door Waste Collection • RFID • GPS • QR Code • GIS Route Mapping • Online Payments
+          <p className="text-lg opacity-95">
+            Door-to-Door Collection • RFID • GPS Tracking • QR Codes •
+            Route Mapping • Online Payments
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <a
-              href="#features"
-              className="px-6 py-3 bg-yellow-400 text-black font-semibold rounded-lg hover:bg-yellow-500 transition"
-            >
+            <button className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition">
               Book a Demo
-            </a>
-            <a
-              href="#contact"
-              className="px-6 py-3 border border-white font-semibold rounded-lg hover:bg-white hover:text-black transition"
-            >
+            </button>
+
+            <button className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">
               Contact Us
-            </a>
+            </button>
           </div>
         </div>
 
-        {/* Right Hero Image */}
-        <div className="mt-10 lg:mt-0 lg:w-1/2 flex justify-center">
+        {/* Right Image */}
+        <div className="lg:w-1/2 mt-12 lg:mt-0 flex justify-center">
           <img
             src="/hero-waste-management.png"
-            alt="Smart waste management dashboard"
-            className="w-full max-w-md animate-fadeIn"
+            alt="Waste management dashboard"
+            className="max-w-md w-full drop-shadow-2xl"
           />
         </div>
 
