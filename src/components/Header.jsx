@@ -1,8 +1,10 @@
 // import React from "react";
 
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
-    <header className="w-full bg-[#fffaf3] h-20 flex items-center px-10">
+    <header className="w-full bg-[#fffaf3] h-20 flex items-center px-10 sticky top-0">
       
       {/* LEFT LOGO */}
       <div className="flex items-center">
@@ -23,10 +25,10 @@ const Header = () => {
 
         <ul className="flex gap-6 text-[15px] text-gray-800">
           <li className="text-blue-600 font-semibold cursor-pointer">
-            Home
+            <Link to="/">Home</Link>
           </li>
           <li className="cursor-pointer hover:text-blue-600">
-            Features
+            <Link to="/feature">Features</Link>
           </li>
           <li className="cursor-pointer hover:text-blue-600">
             Our Solutions
