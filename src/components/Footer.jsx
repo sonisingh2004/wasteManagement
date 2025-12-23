@@ -40,11 +40,11 @@ const Footer = () => {
           <div className="space-y-2">
             <h3 className="font-semibold mb-1">Global Office</h3>
             <p></p>
-            <p>H-61 Noida (Delhi/NCR)</p>
-            <p>UP, India - 201308</p>
-            <p>Email: Support@example.Com</p>
-            <p>Mobile: +91 9650 77 4004</p>
-            <p>Phone: +91 1205112465</p>
+            <p>Near Care Hospital, Chandrasekharpur,</p>
+            <p>Bhubaneswar, Odisha 751001</p>
+            <p>Email :- briskodetechnology@gmail.com</p>
+            <p>Mobile:- +91 9348354248 </p>
+            <p>Phone:- +91 8117856483</p>
 
             <button className="mt-4 px-6 py-2 bg-black text-white rounded-lg">
               Book a Demo
@@ -78,15 +78,7 @@ const Footer = () => {
           
           <p>© 2025–26 by Briskode Technologies Pvt. Ltd</p>
 
-          <div className="flex items-center gap-4">
-            <span className="text-xl cursor-pointer">f</span>
-            <span className="text-xl cursor-pointer">📷</span>
-            <span className="text-xl cursor-pointer">🐦</span>
-
-            <button className="ml-4 flex items-center gap-2 px-6 py-2 bg-green-400 text-black rounded-full font-medium">
-              💬 Let's Chat!
-            </button>
-          </div>
+          
         </div>
 
       </div>

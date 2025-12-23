@@ -1,10 +1,10 @@
 export default function PartnersSection() {
 const logos = [
-  "https://briskodetechnology.com/images/portfolio/portfolio10.png",
-  "https://briskodetechnology.com/images/Briskode/partner/Ganjam%20NAC.png",
-  "https://briskodetechnology.com/images/Briskode/partner/truptitrucknbus.png",
-  "https://briskodetechnology.com/images/Briskode/partner/pattachitra.png",
-  "https://briskodetechnology.com/images/Briskode/partner/PB%20Associate.png",
+  "https://swachhgopalpur.in/assets/logo1-t7lwI3o0.png",
+  "https://swachhganjam.in/assets/logo-D7UUn_EU.png",
+  "https://swachhgopalpur.in/assets/logo1-t7lwI3o0.png",
+  "https://swachhganjam.in/assets/logo-D7UUn_EU.png",
+  "https://swachhgopalpur.in/assets/logo1-t7lwI3o0.png",
 ];
 
   return (
@@ -22,12 +22,12 @@ const logos = [
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 p-6 flex items-center justify-center group"
+              className="h-[120px] w-[120px] bg-white rounded-[50%] shadow-sm hover:shadow-md transition-all duration-300  flex items-center justify-center group"
             >
               <img
                 src={logo}
                 alt="Partner logo"
-                className="h-16 object-contain transition"
+                className="h-[90%] w-[90%] rounded-[40%] object-cover transition"
               />
             </div>
           ))}
