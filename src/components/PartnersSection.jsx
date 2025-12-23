@@ -1,10 +1,10 @@
 export default function PartnersSection() {
 const logos = [
-  "https://cdn-prod.mybharats.in/events/683d3a350e883111868.png",
-  "https://static.wixstatic.com/media/509081_b9dfaa18385a4163a6429e5ac771db0a~mv2.jpg/v1/fill/w_333,h_188,al_c,lg_1,q_80,enc_avif,quality_auto/509081_b9dfaa18385a4163a6429e5ac771db0a~mv2.jpg",
-  "https://static.wixstatic.com/media/509081_ad0f6f6aacff4c7ea90f2f738dcb7060~mv2.png/v1/fill/w_195,h_258,al_c,q_85,blur_3,enc_avif,quality_auto/509081_ad0f6f6aacff4c7ea90f2f738dcb7060~mv2.png",
-  "https://media.licdn.com/dms/image/v2/C560BAQFbAaiJWhGjpQ/company-logo_200_200/company-logo_200_200/0/1630655488118/zonta_infratech_private_limited_logo?e=2147483647&v=beta&t=3KI4-1WKdCmeUml9cULwcxPoJgjXBP2tlqKDAmuGMc4",
-  "https://5.imimg.com/data5/SELLER/Default/2022/4/XJ/WV/GX/151090304/noida-and-greater-noida-authority-application-services-500x500.jpg",
+  "https://briskodetechnology.com/images/portfolio/portfolio10.png",
+  "https://briskodetechnology.com/images/Briskode/partner/Ganjam%20NAC.png",
+  "https://briskodetechnology.com/images/Briskode/partner/truptitrucknbus.png",
+  "https://briskodetechnology.com/images/Briskode/partner/pattachitra.png",
+  "https://briskodetechnology.com/images/Briskode/partner/PB%20Associate.png",
 ];
 
   return (

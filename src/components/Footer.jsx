@@ -15,9 +15,9 @@ const Footer = () => {
           {/* Column 1 */}
           <div>
             <h2 className="text-3xl font-light mb-2">
-              Safai Mitra
+              
             </h2>
-            <p className="font-semibold mb-6">(Clean-Buddy)</p>
+            <p className="font-semibold mb-6"></p>
 
             <img
               src="https://briskodetechnology.com/images/Briskode/logo.png"
