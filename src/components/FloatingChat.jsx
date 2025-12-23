@@ -42,28 +42,13 @@ export default function FloatingChat() {
 
           {/* CHAT BODY */}
           <div className="p-4 space-y-3 h-[250px] overflow-y-auto">
-            <div className="text-center text-xs text-gray-600">
-              10:50 AM
-            </div>
-
-            <div className="flex items-start gap-2">
-              <div className="w-8 h-8 bg-pink-500 text-white flex items-center justify-center rounded-full text-sm">
-                S
-              </div>
-              <div className="bg-blue-200 text-black px-4 py-2 rounded-xl max-w-[220px] text-sm">
-                <strong>SafaiMitra</strong>
-                <br />
-                Hi, Welcome to Safai Mitra.
-              </div>
-            </div>
-
             {/* CTA CARD */}
             <div className="bg-white rounded-xl p-4 shadow-sm mt-4">
               <p className="text-sm font-semibold mb-3">
                 Contact us for free Demo
               </p>
               <a
-                href="https://wa.me/919999999999"
+                href="https://wa.me/919650774004"
                 target="_blank"
                 className="inline-flex items-center gap-2 bg-emerald-500 text-white px-4 py-2 rounded-full text-sm hover:bg-emerald-600 transition"
               >
