@@ -39,10 +39,10 @@ const Footer = () => {
           {/* Column 3 */}
           <div className="space-y-2">
             <h3 className="font-semibold mb-1">Global Office</h3>
-            <p>Safaimitra - Clean Buddy</p>
+            <p></p>
             <p>H-61 Noida (Delhi/NCR)</p>
             <p>UP, India - 201308</p>
-            <p>Email: Support@SafaiMitra.Com</p>
+            <p>Email: Support@example.Com</p>
             <p>Mobile: +91 9650 77 4004</p>
             <p>Phone: +91 1205112465</p>
 
@@ -51,7 +51,7 @@ const Footer = () => {
             </button>
 
             <p className="mt-3 inline-block border-b border-black pb-1">
-              About Safai Mitra
+             
             </p>
           </div>
 
@@ -64,7 +64,7 @@ const Footer = () => {
             </p>
 
             <p className="mt-10 inline-block border-b border-black pb-1">
-              2025-26 © Safai Mitra
+              2025-26 © <a href="https://briskodetechnology.com/">Briskodetechnology.pvt.ltd</a>
             </p>
           </div>
 
