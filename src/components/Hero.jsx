@@ -1,6 +1,12 @@
+import { useState } from "react";
+import DemoModal from "./DemoModal";
+
 export default function Hero() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
-    <section className="hero-gradient text-white h-screen flex pt-20">
+    <>
+      <section className="hero-gradient text-white h-screen flex pt-20">
       <div className="max-w-7xl mx-auto px-6 py-24 flex flex-col lg:flex-row items-center justify-between">
 
         {/* Left Content */}
@@ -18,11 +24,16 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <button className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition">
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="bg-yellow-400 text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition"
+            >
               Book a Demo
             </button>
 
-            <button className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">
+            <button
+            onClick={() => setIsModalOpen(true)}
+            className="border border-white px-6 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition">
               Contact Us
             </button>
           </div>
@@ -39,5 +50,8 @@ export default function Hero() {
 
       </div>
     </section>
+
+    <DemoModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+    </>
   );
 }
